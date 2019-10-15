@@ -25,7 +25,7 @@ public class HomeController {
          }
          @GetMapping("/add")
          public String jobForm(Model model){
-             model.addAttribute("jobs", new Job());
+             model.addAttribute("job", new Job());
          return "jobform";
          }
          @PostMapping("/proccess")
