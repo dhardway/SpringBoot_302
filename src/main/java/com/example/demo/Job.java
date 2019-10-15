@@ -19,7 +19,7 @@ public class Job {
     private String title;
 
     @NotNull
-    @Size(min=4)
+    @Size(min=30)
     private String employer;
 
     @NotNull
